@@ -1,15 +1,3 @@
----
-page_type: sample
-languages:
-- cpp
-products:
-- windows-api-win32
-name: Ikeloa
-urlFragment: d3d12-hello-world-samples-win32
-description: This is a solution to the Ikeloa exercise 
-- path: LICENSE
-  target: LICENSE
----
 
 # Direct3D 12 : Torrus rendering 
 ![HelloWorlds GUI](src/Torrus.png)
@@ -31,5 +19,8 @@ I have tried to implement the Level 1 implementation tasks which include
                                                                                         the cross product of its edges and accumulating these normals at each vertex. 
 																						The accumulated vectors were then normalized to produce per-vertex normals suitable for smooth shading. This approach approximates the continuous surface normals 
 																						of the torus and enables proper Lambertian lighting.                                                                                                                         
-																														   
+Build Steps:-
+
+1) Download or clone the repository 
+2) Build & Run D3D12HelloWorld\src\D3D12HelloWorld.sln 
 
